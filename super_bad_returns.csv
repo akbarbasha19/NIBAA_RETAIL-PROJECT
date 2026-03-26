@@ -1,0 +1,133 @@
+return_id,order_id,product_id,return_date,quantity,reason
+@@@,O0000302,P00104,NULL,1,changed_mind
+R0002837, ,123abc, ,1,wrong_item
+R0001158,O0000860,P00238,2024-02-01,N/A,@@@
+nan,32-13-2025,invalid,2025-06-21,invalid,changed_mind
+32-13-2025,O0001408,P00084,not_a_date,@@@,###BAD###
+R0002325,not_a_date,P00286, ,1,late_delivery
+R0001974,O0001462,P00229,123abc, ,invalid
+R0004054,O0002989,not_a_date,2023-01-25,1,invalid
+9999-99-99,O0002184,P00123,not_a_date,1,defective
+null,O0001403,P00080,2025-09-29,1,wrong_item
+R0001261,O0000943,P00209,2023-12-05,nan,defective
+R0003546,O0002629,P00243,2024-06-11,@@@,changed_mind
+ ,O0001121, ,32-13-2025,1,not_a_date
+R0001794,32-13-2025,9999-99-99,2025-02-22,1,late_delivery
+R0001420,O0001060,invalid,2024-03-19,1,wrong_item
+R0004025,O0002970,9999-99-99,2023-05-20,nan,###BAD###
+R0002801,N/A,P00097,not_a_date,1,32-13-2025
+R0000296,O0000225,9999-99-99,,not_a_date,defective
+NULL,N/A,@@@,2023-02-23,1,###BAD###
+R0000744,NULL,P00140,2024-01-07,NULL,defective
+R0003554,###BAD###,123abc,2024-02-03,1,123abc
+R0003847,O0002844,P00226,2025-07-17,invalid,changed_mind
+R0000841,O0000617,P00044,2023-03-04,123abc,late_delivery
+R0002642,###BAD###,P00202,null,1,wrong_item
+R0002244,O0001666,not_a_date,2024-03-05,1,###BAD###
+R0001316,O0000988,nan,2025-08-14,123abc,wrong_item
+R0001817,O0001347,null,2024-04-11,1,invalid
+9999-99-99,O0002929,nan,2023-09-24,1, 
+R0000507,O0000382, ,2024-01-30,123abc,32-13-2025
+not_a_date,,P00144,2023-06-25,NULL,late_delivery
+R0001942,O0001438,not_a_date,2024-11-27,invalid,###BAD###
+R0002264,O0001679,P00013,N/A,invalid,NULL
+R0002393,O0001774,P00075,@@@,1,defective
+NULL,O0001637,N/A,2023-11-02,1,wrong_item
+9999-99-99,N/A,P00223,2023-02-07,1,defective
+NULL,O0000509,P00250,2023-05-01,1,wrong_item
+R0002454,O0001821,P00108,nan,32-13-2025,changed_mind
+R0003771,O0002791,P00007,2023-02-26,1,wrong_item
+R0002253,32-13-2025,P00263,2023-06-24,1,changed_mind
+R0000025,O0000018,P00264,2023-09-06,1,late_delivery
+nan,32-13-2025,P00182,2024-12-12,N/A,null
+not_a_date,@@@,P00068,2024-05-17,###BAD###,@@@
+R0000339,O0000253,P00226,2025-04-26,1,defective
+R0000851,invalid,not_a_date,2023-09-27,N/A,changed_mind
+###BAD###,,,not_a_date,1,
+R0003940,,P00181,2024-11-02,1,wrong_item
+nan,not_a_date,P00183,2024-12-19,,invalid
+32-13-2025,O0002362,P00131,invalid,1,late_delivery
+@@@,O0001860,P00210,2025-07-01,,N/A
+null,123abc,P00051,2024-02-09,1,changed_mind
+123abc,O0002412,9999-99-99,123abc,nan,@@@
+R0000624,O0000462,N/A,NULL,N/A,invalid
+R0000041,O0000033,P00290,###BAD###,1,nan
+R0001975,O0001463, ,2023-05-18,1,wrong_item
+R0002136,O0001585,P00186,NULL,1,9999-99-99
+R0000707,O0000517,32-13-2025,2023-12-13,1,###BAD###
+R0000417,O0000310,P00057,2023-09-07,1,###BAD###
+null,,NULL,2023-02-19,@@@,defective
+R0001216,O0000907,32-13-2025,2025-06-27,1,wrong_item
+R0003850,O0002845, ,2025-10-07,invalid,not_a_date
+R0000333,nan,P00216,null,1,null
+32-13-2025,O0002192,123abc,null,nan,nan
+R0003863,O0002856,NULL,2023-01-11,1,N/A
+123abc,NULL,P00007,2023-07-18,1,late_delivery
+R0002741,,P00044,2024-11-17,1,defective
+R0003713,nan,9999-99-99,2024-08-30,1,32-13-2025
+not_a_date,O0002211,invalid,null,null,changed_mind
+R0003035,O0002244,@@@,not_a_date,invalid,not_a_date
+R0001654,N/A,invalid,2024-08-19,123abc,wrong_item
+R0000181,O0000135,###BAD###,2023-09-20,invalid,wrong_item
+R0003037,O0002245,P00275,2023-12-31, ,wrong_item
+ ,NULL,NULL,2024-11-25, ,defective
+###BAD###,nan,,2023-09-13,1,late_delivery
+32-13-2025,O0000265,P00043,2023-10-03,1, 
+###BAD###,,P00089,,1,nan
+R0001407,O0001052,P00214,2024-07-07,123abc, 
+R0002922,O0002163,P00096,2023-04-05,null,null
+invalid,O0002902,null,2025-04-01,1,not_a_date
+N/A,123abc,P00035,2023-08-06,1,
+R0002822,O0002092,invalid,2025-03-01, ,null
+9999-99-99,O0002543,P00056,2024-02-01,1,late_delivery
+nan,9999-99-99,P00098,invalid,1,123abc
+not_a_date,invalid,@@@,2023-08-07,123abc,wrong_item
+R0003966,O0002930,###BAD###,2025-02-12,1,wrong_item
+R0002969,O0002199,P00223,2024-06-09,1,defective
+R0000133,O0000099,9999-99-99,2025-06-23,9999-99-99,null
+ ,,null,null,nan,late_delivery
+123abc,O0002580,P00121,2025-07-03,1,late_delivery
+,@@@,P00275,2023-06-04,1,defective
+,O0000944,P00171,2023-04-22,32-13-2025,wrong_item
+###BAD###,O0002416,invalid,9999-99-99,1,wrong_item
+R0003621,O0002685, ,2023-11-06,,wrong_item
+###BAD###,O0002048,P00270,invalid, ,NULL
+null,O0001881,not_a_date,null,1,wrong_item
+###BAD###, ,P00274,2024-04-28,1,wrong_item
+NULL,nan,32-13-2025,32-13-2025,1,changed_mind
+123abc,null,P00119,2025-07-19,1,wrong_item
+not_a_date,null,,2023-04-18,1,NULL
+invalid,nan,###BAD###,2023-11-24,1,late_delivery
+R0004041,O0002980,P00223,not_a_date,1,32-13-2025
+invalid,9999-99-99,P00061,2025-06-02,1,late_delivery
+ ,O0001427,@@@,2024-12-30,1,32-13-2025
+nan,O0002840,P00297,2024-06-13,1,changed_mind
+R0001452,,P00163,###BAD###,N/A,9999-99-99
+R0003467,O0002569,P00202,2024-07-07,32-13-2025,###BAD###
+,O0002360,P00030,123abc,1,late_delivery
+null,O0000795,,2023-03-22,N/A, 
+R0000409,O0000305,P00030,2024-02-16,1,not_a_date
+R0001152,O0000854,32-13-2025,2024-12-06,1,9999-99-99
+32-13-2025,null,123abc,2025-07-04,N/A,late_delivery
+9999-99-99,O0001831,@@@,2025-03-17,1,123abc
+123abc,123abc,null,null,1,changed_mind
+R0003518,,P00087,NULL,@@@,changed_mind
+NULL,null,P00225,###BAD###,,wrong_item
+R0000139,O0000105,P00184,2024-03-02,1,N/A
+N/A,O0001371, ,2025-10-13,1,defective
+R0001812,O0001344,P00132,2023-10-16,1,late_delivery
+R0003280,O0002435,P00197,9999-99-99,1,N/A
+ ,O0001851,P00122,2024-01-14,1,not_a_date
+@@@, ,,2023-11-13,nan,9999-99-99
+R0001718,O0001274,P00183,2023-01-10,1,nan
+R0001218,O0000909,P00054,2024-11-30,1,N/A
+R0004041,O0002980,P00223,not_a_date,1,32-13-2025
+R0001794,32-13-2025,9999-99-99,2025-02-22,1,late_delivery
+R0002969,O0002199,P00223,2024-06-09,1,defective
+NULL,nan,32-13-2025,32-13-2025,1,changed_mind
+R0001216,O0000907,32-13-2025,2025-06-27,1,wrong_item
+not_a_date,,,,not_a_date,
+###BAD###,not_a_date,not_a_date,,not_a_date,invalid
+not_a_date,,not_a_date,###BAD###,invalid,not_a_date
+,,,,,###BAD###
+###BAD###,,not_a_date,not_a_date,,not_a_date
